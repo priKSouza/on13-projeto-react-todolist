@@ -1,0 +1,27 @@
+.header {
+  background: linear-gradient(
+    150deg,
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #008000,
+    #24b9c8,
+    #1c0082,
+    #7f00ff);
+  padding-top: 2rem;
+}
+
+.header div {
+  max-width: 1120px;
+  margin: 0 0 0 75px;
+
+  padding: 2rem 1rem 12rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-header{
+  width: 50%;
+}

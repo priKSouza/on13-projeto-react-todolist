@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+  background: #fff;
+  font-size: 23px;
+  box-shadow: 0 0 0.9em #008000;
+}
+
+.navbar a {
+  color: #008000;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.links-header{
+  margin: 5px;
+  padding: 2px;
+  border-bottom: none;
+}
+
+@media (max-width: 570px){
+  header{
+    flex-wrap: wrap;
+  }
+}
