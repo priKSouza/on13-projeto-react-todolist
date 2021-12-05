@@ -49,6 +49,7 @@ const Home = () => {
           <a
             href="https://reprograma.com.br/"
             target="_blank"
+            rel= "noreferrer"
             className="reprograma"
           >
             {"{reprograma}"}
